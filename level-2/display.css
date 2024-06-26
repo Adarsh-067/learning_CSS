@@ -1,0 +1,25 @@
+/* div{
+    background-color: blue;
+    display: inline;
+}
+
+button{
+    display: block;
+} */
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    background-color: blueviolet;
+    display: inline-block;
+}
+
+#box2{
+    visibility: hidden;
+}
+
+#box4{
+    display: none;
+}

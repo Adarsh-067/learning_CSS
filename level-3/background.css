@@ -1,0 +1,25 @@
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#box1{
+    background-image: url(car.jpg);
+    background-size: cover;
+}
+
+#box2{
+    background-image: url(car2.jpg);
+    background-size : contain;
+    background-repeat: no-repeat;
+    background-position: 50px;
+}
+
+#box3{
+    background-image: url(car.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+}

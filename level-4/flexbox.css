@@ -1,0 +1,43 @@
+#container div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+    /* font-size: 2px; */
+}
+
+#box1{
+    background-color: antiquewhite;
+}
+#box2{
+    background-color: rgb(174, 120, 49);
+    /* align-self: flex-end; */
+    /* flex-shrink: 0; */
+}
+#box3{
+    background-color: rgb(86, 104, 211);
+    /* flex-grow: 1; */
+}
+#box4{
+    background-color: rgb(148, 143, 136);
+    /* align-self: flex-start; */
+    /* flex-grow: 2; */
+}
+#box5{
+    background-color: rgb(224, 79, 98);
+}
+
+#container{
+    width: 750px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* align-content:center; */
+}

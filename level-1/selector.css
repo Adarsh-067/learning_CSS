@@ -1,0 +1,27 @@
+*{
+    color: yellowgreen;
+}
+
+h1{
+    color: blueviolet;
+}
+
+/* ID selector */
+
+#a{
+    color: red;
+}
+
+#b{
+    color: blue;
+}
+
+#c{
+    color: yellow;
+}
+
+/* class selector */
+
+.heading{
+    color: brown;
+}

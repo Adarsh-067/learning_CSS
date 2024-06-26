@@ -1,0 +1,50 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 10px;
+}
+
+#box2{
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    margin: 20px;
+    font-size: 2em;
+    /* two time big of parent font size */
+}
+
+#box3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(201, 121, 24);
+    display:  inline-block;
+    font-size: 25px;
+}
+
+#box4{
+    /* width: 50%; */
+    height: 50%;
+    background-color: rgb(38, 114, 114);
+    margin: 20px;
+    font-size: 0.5em;
+    /* half of parent font size */
+}
+
+#box5{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(201, 121, 24);
+    display:  inline-block;
+    margin-right: 50px;
+}
+
+#box6{
+    width: 3rem;
+    height: 5rem;
+    background-color: rgb(38, 114, 114);
+    margin: 20px;
+
+}

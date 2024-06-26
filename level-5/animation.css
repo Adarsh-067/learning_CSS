@@ -1,0 +1,23 @@
+div {
+  height: 150px;
+  width: 150px;
+  background-color: bisque;
+  border: 2px solid black;
+  margin: 60px;
+  animation-name: car;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.5;
+  animation-direction: normal;
+  /* animation-fill-mode: backwards; */
+  /* animation-iteration-count: infinite; */
+}
+
+@keyframes car {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(1024px);
+  }
+}

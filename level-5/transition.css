@@ -1,0 +1,19 @@
+div{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    margin: 50px;
+    transition-property: all;
+    transition-duration: 0.75s;
+    transition-timing-function:ease-in;
+    transition-delay: 0.5s;
+}
+
+div:hover{
+    background-color: red;
+    /* transform: scalex(2); */
+    /* transform: translatey(200px); */
+    /* transform: skew(45deg); */
+    transform: rotate(360deg);
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 60px;
+    width: 1540px;
+    background-color: #0f1111;
+}
+
+header div a{
+    color: white;
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+header div #logo{
+    font-size: 25px;
+    color: green;
+}
+
+header div button{
+    background-color: yellowgreen;
+}
+.contantbox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 15px 15px;
+}
+
+#contant{
+     height: 632px;
+}
+
+footer{
+    width: 1540px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
